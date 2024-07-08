@@ -52,15 +52,19 @@ python manage.py createsuperuser
 ```mark8
 python manage.py runserver
 ```
-10. Перейти по http ссылке и добавить к ней, для проверки задания:  
+10. Перейти по http ссылке и добавить к ней, для проверки задания:
+```mark9
 admin/  
 company/  
 company/create/  
 buyer/  
 buyer/create/  
 deal/  
-deal/create/  
+deal/create/
+```
  Также данные можно фильтровать, используя конструкции:  
+ ```mark10
 /deal/?company_id=1 (выведет сделки, где принимала участие компания с id=1)  
 /company/?name=Лукойл (выведет компанию с названием "Лукойл")  
 /buyer/?name=Сидоров К.В. (выведет покупателя под именем "Сидоров К.В.")  
+```
