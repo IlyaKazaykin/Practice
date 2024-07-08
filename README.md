@@ -11,7 +11,7 @@ Work on practice 2024
 # Подготовительные действия:
 1. Установить Python 3.12.4
 2. Клонировать проект и перейти в папку с проектом, для это нужно ввести команды в командной строке Windows:
-\```
+\```bash
 git clone https://github.com/IlyaKazaykin/Practice.git
 cd Practice
 \```
