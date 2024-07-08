@@ -12,13 +12,11 @@ Work on practice 2024
 1. Установить Python 3.12.4
 2. Клонировать проект и перейти в папку с проектом, для это нужно ввести команды в командной строке Windows:
 ```git clone https://github.com/IlyaKazaykin/Practice.git
-cd Practice
+```cd Practice
 
-3. Создать и активировать виртуальную среду:
-\```   
+3. Создать и активировать виртуальную среду:  
 python -m venv myenv
 myenv\Scripts\activate
-\```
 
 5. Установить модули из файла requirements.txt:   
 pip install -r requirements.txt
