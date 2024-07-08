@@ -52,7 +52,7 @@ python manage.py migrate
         "company": 4
 }
 ```
-Для компании:
+ Для компании:
 ```mark8
 {
         "name": "Яндекс",
@@ -62,7 +62,7 @@ python manage.py migrate
         "controlling_stake": 51
 }
 ```
-Для покупателя:
+ Для покупателя:
 ```mark9
 {
         "name": "Казайкин И.А.",
@@ -71,8 +71,8 @@ python manage.py migrate
         "email": "kazaykin@mail.ru"
 }
 ```
-Также можно создать в /admin/ .  
-Для использования admin, нужно создать суперпользователя:  
+ Также можно создать в /admin/ .  
+ Для использования admin, нужно создать суперпользователя:  
 ```mark10
 python manage.py createsuperuser 
 ```
