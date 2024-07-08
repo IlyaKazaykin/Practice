@@ -43,7 +43,7 @@ DATABASES = {
 python manage.py makemigrations
 python manage.py migrate
 ```
-8. Загрузить имеющиеся объекты БД /company/create , /buyer/create или /deal/create , а также можно создать в /admin/
+8. Загрузить имеющиеся объекты БД /company/create , /buyer/create или /deal/create , а также можно создать в /admin/  
 Для использования admin, нужно создать суперпользователя:
 ```mark7
 python manage.py createsuperuser 
