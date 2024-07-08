@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "full_name": "Шишкин А.И",
+        "address": "Самара, Московское шоссе, 32А",
+        "phone": "+76927549329",
+        "email": "karto12@mail.ru"
+    },
+    {
+        "id": 2,
+        "full_name": "Сидоров К.В.",
+        "address": "Екатеринбург, ул. Ленина, 25",
+        "phone": "+73432145678",
+        "email": "sidorov_kv@mail.ru"
+    },
+    {
+        "id": 3,
+        "full_name": "Смирнова Е.М.",
+        "address": "Новосибирск, пр. Красный, 102",
+        "phone": "+73837219084",
+        "email": "smirnova_em@mail.ru"
+    },
+    {
+        "id": 4,
+        "full_name": "Кузнецов А.А.",
+        "address": "Краснодар, ул. Ставропольская, 5",
+        "phone": "+78615739201",
+        "email": "kuznetsov_aa@mail.ru"
+    },
+    {
+        "id": 5,
+        "full_name": "Васильев Д.В.",
+        "address": "Ростов-на-Дону, пр. Ленина, 78",
+        "phone": "+78631290456",
+        "email": "vasilev_dv@mail.ru"
+    },
+    {
+        "id": 6,
+        "full_name": "Михайлова Л.С.",
+        "address": "Самара, ул. Пушкина, 10",
+        "phone": "+76987123456",
+        "email": "mikhailova_ls@mail.ru"
+    },
+    {
+        "id": 7,
+        "full_name": "Новикова М.А.",
+        "address": "Москва, пр. Пресненский, 2",
+        "phone": "+74998876543",
+        "email": "novikova_ma@mail.ru"
+    },
+    {
+        "id": 8,
+        "full_name": "Федоров К.Г.",
+        "address": "Санкт-Петербург, ул. Московская, 15",
+        "phone": "+78129876543",
+        "email": "fedorov_kg@mail.ru"
+    },
+    {
+        "id": 9,
+        "full_name": "Козлов И.Д.",
+        "address": "Екатеринбург, ул. Пушкина, 12",
+        "phone": "+73431111111",
+        "email": "kozlov_id@mail.ru"
+    },
+    {
+        "id": 10,
+        "full_name": "Лебедева О.Ю.",
+        "address": "Новосибирск, пр. Ленина, 1",
+        "phone": "+73837654321",
+        "email": "lebedeva_oyu@mail.ru"
+    }
+]

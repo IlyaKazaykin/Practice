@@ -1,0 +1,50 @@
+[
+    {
+        "deal_date": "2024-06-03",
+        "shares_quantity": 23,
+        "buyer": 1,
+        "company": 4
+    },
+    {
+        "deal_date": "2024-06-08",
+        "shares_quantity": 32,
+        "buyer": 1,
+        "company": 1
+    },
+    {
+        "deal_date": "2024-06-06",
+        "shares_quantity": 53,
+        "buyer": 4,
+        "company": 8
+    },
+    {
+        "deal_date": "2024-07-05",
+        "shares_quantity": 37,
+        "buyer": 9,
+        "company": 9
+    },
+    {
+        "deal_date": "2024-07-06",
+        "shares_quantity": 41,
+        "buyer": 9,
+        "company": 4
+    },
+    {
+        "deal_date": "2024-06-13",
+        "shares_quantity": 65,
+        "buyer": 6,
+        "company": 3
+    },
+    {
+        "deal_date": "2024-05-16",
+        "shares_quantity": 11,
+        "buyer": 10,
+        "company": 10
+    },
+    {
+        "deal_date": "2024-04-12",
+        "shares_quantity": 33,
+        "buyer": 2,
+        "company": 5
+    }
+]

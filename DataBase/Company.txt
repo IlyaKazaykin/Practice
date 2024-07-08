@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Газпром",
+        "address": "Москва, ул. Мясницкая, 35",
+        "share_price": "155.80",
+        "shares_available": 100000000,
+        "controlling_stake": 50
+    },
+    {
+        "id": 2,
+        "name": "Лукойл",
+        "address": "Москва, ул. Садовническая, 8",
+        "share_price": "8550.00",
+        "shares_available": 200000000,
+        "controlling_stake": 55
+    },
+    {
+        "id": 3,
+        "name": "МТС",
+        "address": "Москва, ул. Ленинградская, 13",
+        "share_price": "308.60",
+        "shares_available": 150000000,
+        "controlling_stake": 39
+    },
+    {
+        "id": 4,
+        "name": "ВТБ",
+        "address": "Москва, ул. Наметкина, 16",
+        "share_price": "1.02",
+        "shares_available": 500000000,
+        "controlling_stake": 55
+    },
+    {
+        "id": 5,
+        "name": "Татнефть",
+        "address": "Альметьевск, ул. Ленина, 158",
+        "share_price": "711.60",
+        "shares_available": 150000000,
+        "controlling_stake": 50
+    },
+    {
+        "id": 6,
+        "name": "Северсталь",
+        "address": "Череповец, пр. Ленина, 1",
+        "share_price": "1902.00",
+        "shares_available": 100000000,
+        "controlling_stake": 55
+    },
+    {
+        "id": 7,
+        "name": "Русал",
+        "address": "Москва, Пресненская набережная, 10",
+        "share_price": "43.60",
+        "shares_available": 430000000,
+        "controlling_stake": 55
+    },
+    {
+        "id": 8,
+        "name": "Магнит",
+        "address": "Краснодар, ул. Одесская, 1",
+        "share_price": "8223.00",
+        "shares_available": 370000000,
+        "controlling_stake": 44
+    },
+    {
+        "id": 9,
+        "name": "Распадская",
+        "address": "Междуреченск, ул. Ленина, 1",
+        "share_price": "399.70",
+        "shares_available": 280000000,
+        "controlling_stake": 37
+    },
+    {
+        "id": 10,
+        "name": "Транснефть",
+        "address": "Москва, ул. Тверская, 12",
+        "share_price": "1596.00",
+        "shares_available": 430000000,
+        "controlling_stake": 55
+    }
+]
