@@ -43,17 +43,45 @@ DATABASES = {
 python manage.py makemigrations
 python manage.py migrate
 ```
-8. Загрузить имеющиеся объекты БД /company/create , /buyer/create или /deal/create , а также можно создать в /admin/  
-Для использования admin, нужно создать суперпользователя:
+8. Загрузить имеющиеся объекты БД /company/create , /buyer/create или /deal/create , например для deal:
 ```mark7
+{
+        "deal_date": "2024-06-09",
+        "shares_quantity": 23,
+        "buyer": 4,
+        "company": 4
+}
+```
+Для компании:
+```mark8
+{
+        "name": "Яндекс",
+        "address": "Самара, Московское шоссе, 32А",
+        "share_price": "2300.4",
+        "shares_available": 250000000,
+        "controlling_stake": 51
+}
+```
+Для покупателя:
+```mark9
+{
+        "name": "Казайкин И.А.",
+        "address": "Самара, Московское шоссе, 32А",
+        "phone": "+76927549329",
+        "email": "kazaykin@mail.ru"
+}
+```
+Также можно создать в /admin/ .  
+Для использования admin, нужно создать суперпользователя:  
+```mark10
 python manage.py createsuperuser 
 ```
 9. Запустить сервер
-```mark8
+```mark11
 python manage.py runserver
 ```
 10. Перейти по http ссылке и добавить к ней, для проверки задания:
-```mark9
+```mark12
 admin/  
 company/  
 company/create/  
@@ -63,8 +91,10 @@ deal/
 deal/create/
 ```
  Также данные можно фильтровать, используя конструкции:  
- ```mark10
+ ```mark13
 /deal/?company_id=1 (выведет сделки, где принимала участие компания с id=1),  
+/deal/?buyer_id=1 (выведет сделки, где принимал участие покупатель с id=1),  
+/deal/?deal_date=2024-06-08 (выведет сделки, даты которой 2024-06-08),
 /company/?name=Лукойл (выведет компанию с названием "Лукойл"),  
 /buyer/?name=Сидоров К.В. (выведет покупателя под именем "Сидоров К.В.").  
 ```
